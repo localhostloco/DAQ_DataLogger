@@ -1,0 +1,12 @@
+Bundle-Version: 1.0.0.${tstamp}
+Bundle-Name: Data Logger Bundle
+Bundle-Description: Provides a logger which reads data from a file
+Bundle-Vendor: Daniel Susumu
+Export-Package:  \
+	datalogger,\
+	datalogger.drivers
+-runee: JavaSE-1.8
+-runfw: org.eclipse.osgi;version='[3.10.1.v20140909-1633,3.10.1.v20140909-1633]'
+Private-Package:  \
+	datalogger.drivers,\
+	datalogger
